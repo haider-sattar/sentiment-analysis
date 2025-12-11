@@ -1,0 +1,28 @@
+# Check if .gitignore exists
+ls -la | grep .gitignore
+
+# If it doesn't exist, create it
+cat > .gitignore << 'EOF'
+# Virtual environment
+venv/
+.env/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+__pycache__/
+
+# Model files (DO NOT PUSH these to GitHub)
+models/
+*.joblib
+*.pkl
+*.h5
+
+# Large data files
+data/cleaned_reviews.csv
+*.csv
+
+# Streamlit cache
+.streamlit/
+EOF
