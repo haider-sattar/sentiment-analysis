@@ -67,7 +67,7 @@ vectorizer, model, is_optimized = load_model()
 #  HEADER
 # ==========================================================
 st.markdown('<h1 class="main-title">📊 Sentiment Analysis Dashboard</h1>', unsafe_allow_html=True)
-st.markdown('<p class="subtext">Analyze movie review sentiment using a machine-learning classifier.</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtext">Analyze any review sentiment using a machine-learning classifier.</p>', unsafe_allow_html=True)
 
 # Feature badges
 col1, col2, col3 = st.columns(3)
