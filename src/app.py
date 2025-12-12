@@ -41,8 +41,8 @@ st.markdown("""
 def load_model():
     """Load the pre-trained optimized model"""
     try:
-        vectorizer = joblib.load("models/optimized_vectorizer.joblib")
-        model = joblib.load("models/optimized_model.joblib")
+        vectorizer = joblib.load("optimized_vectorizer.joblib")
+        model = joblib.load("optimized_model.joblib")
         return vectorizer, model, True
     except:
         # Fallback to demo model
