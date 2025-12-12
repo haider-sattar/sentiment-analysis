@@ -106,18 +106,7 @@ if st.button("🚀 Analyze Sentiment", type="primary", use_container_width=True)
                 confidence = max(proba) * 100
                 st.metric("Score", f"{confidence:.1f}%")
 
-            # ==========================================================
-            #  STREAMLIT NATIVE CHART (NO MATPLOTLIB)
-            # ==========================================================
-            st.markdown("### Sentiment Distribution")
-
-            df_chart = pd.DataFrame({
-                "Sentiment": ["Negative", "Positive"],
-                "Probability": proba
-            })
-
-            st.bar_chart(df_chart.set_index("Sentiment"))
-
+           
     else:
         st.warning("Please enter some text.")
 
