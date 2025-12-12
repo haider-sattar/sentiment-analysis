@@ -40,8 +40,8 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        vectorizer = joblib.load("optimized_vectorizer.joblib")
-        model = joblib.load("optimized_model.joblib")
+        vectorizer = joblib.load("src/optimized_vectorizer.joblib")
+        model = joblib.load("src/optimized_model.joblib")
         return vectorizer, model, True
     except:
         from sklearn.feature_extraction.text import TfidfVectorizer
