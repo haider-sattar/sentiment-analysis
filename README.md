@@ -3,7 +3,7 @@
 A production-ready machine learning application that classifies text sentiment as **Positive** or **Negative** with **89.4% accuracy**, built for showcasing end-to-end ML skills.
 
 ## 🚀 Live Demo
-**[👉 Try the Live App ](https://https://sentiment-analysis-dpa7pjlnj6nimmdbara7ej.streamlit.app)**
+**[👉 Try the Live App ](https://sentiment-analysis-dpa7pjlnj6nimmdbara7ej.streamlit.app)**
 
 ## 🎯 Project Overview
 This is a complete sentiment analysis pipeline built to demonstrate practical machine learning skills for freelance and professional opportunities. The application uses an optimized Logistic Regression model to analyze text sentiment in real-time with 89.4% accuracy.
