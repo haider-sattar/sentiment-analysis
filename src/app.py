@@ -145,7 +145,7 @@ st.markdown("""
 ### 🤖 Model  
 - **Algorithm:** Logistic Regression (Optimized)  
 - **Features:** 10,000 TF-IDF features  
-- **N-grams:** Unigrams, bigrams, trigrams  
+- **N-grams:** trigrams  
 - **Accuracy:** 89.4%  
 """)
 
