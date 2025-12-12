@@ -132,7 +132,7 @@ st.subheader("📘 About the Project")
 
 st.markdown("""
 ### 📌 Problem  
-This project performs **binary sentiment classification** to determine whether a movie review expresses a **positive** or **negative** opinion.
+This project performs **binary sentiment classification** to determine whether a review expresses a **positive** or **negative** opinion.
 
 ### 📊 Dataset  
 - **Source:** IMDB Movie Reviews dataset  
