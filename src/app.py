@@ -135,6 +135,5 @@ st.markdown("""
 st.divider()
 st.caption("""
 **Ali Haider** • Built with Streamlit  
-[GitHub](https://github.com) • 
-[Live Demo](https://huggingface.co/spaces)
+[GitHub](https://github.com/haider-sattar/sentiment-analysis/tree/main) •
 """)
