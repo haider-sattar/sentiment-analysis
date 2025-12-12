@@ -1,7 +1,10 @@
 import streamlit as st
 import joblib
 import os
+import matplotlib
+matplotlib.use("Agg")  # Use non-GUI backend
 import matplotlib.pyplot as plt
+
 import numpy as np
 
 # ==========================================================
